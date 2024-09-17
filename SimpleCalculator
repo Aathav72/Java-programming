@@ -1,8 +1,8 @@
 #Simple Calculator
 import java.io.*;
 import java.lang,*;
-import java.lang.math;
-imort java.util.Scanner;
+import java.lang.Math;
+import java.util.Scanner;
 
 public class SimpleCalculator {
     public static void main(String[] args)
@@ -13,7 +13,7 @@ public class SimpleCalculator {
       num1 = sc.nextDouble();
       num2 = sc.nextDouble();
 
-      System.out.println("Enter the operators(+,-,*,/): ")
+      System.out.println("Enter the operators(+,-,*,/): ");
       char op = sc.next().charAt(0);
       double o = 0;
 
