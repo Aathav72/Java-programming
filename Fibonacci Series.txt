@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Fibonacci Series {
+class FibonacciSeries {
 
     static int fib(int n)
     {
